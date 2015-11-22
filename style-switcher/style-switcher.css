@@ -1,0 +1,157 @@
+
+.style-switcher {
+	height: 45px;
+	width: 90px;
+	position: fixed !important;
+	top: 90px;
+	left: 0px;
+	z-index: 999999999;
+	color: #999;
+	font-size: 13px;
+	opacity: 0.5;
+}
+
+.style-switcher a {
+	color: #CCC;	
+}
+
+.ss-header {
+	overflow: hidden;
+	background: #353535;
+}
+
+.ss-header-open {}
+
+.ss-icon {
+	padding: 12px 15px;	
+	float: left;
+	background: #2b2b2a;
+}
+
+.ss-open {
+	float: right;
+	display: block;
+	padding: 12px 16px;	
+}
+
+.ss-body {
+	width: 150px;
+	background: #353535;
+	overflow: hidden;
+	display: none;
+}
+
+.ss-body-title {
+	padding: 10px;	
+}
+
+.ss-body-title:after {
+	font-family: FontAwesome;
+	content: "\f107";
+	margin-left: 5px;
+}
+.ss-color {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;	
+}
+
+#ss-menu-style {
+	background: #202020;
+	border: none;
+	outline: none;
+	width: 100%;
+	height: 45px;
+	color: #CACACA;
+	padding-left: 5px;
+}
+
+.ss-active {
+	box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.48);
+	position: relative;
+}
+
+.ss-color li,
+.ss-background li {
+	float: left;
+} 
+
+.ss-color a {
+	display: block;
+	text-indent: -9999px;
+	height: 50px;
+	width: 50px;
+}
+
+.ss-default a {
+	border-top: 25px solid #fff;
+	border-left: 25px solid #fff;
+	border-right: 25px solid #191919;
+	border-bottom: 25px solid #6DBE4B;
+}
+
+.ss-dark a {
+	border-top: 25px solid #222222;
+	border-left: 25px solid #222222;
+	border-right: 25px solid #f0f0f0;
+	border-bottom: 25px solid #6DBE4B;
+}
+
+.ss-grey a {
+	border-top: 25px solid #fff;
+	border-left: 25px solid #fff;
+	border-right: 25px solid #191919;
+	border-bottom: 25px solid #191919;
+}
+
+.ss-yellow a {
+	border-top: 25px solid #fff;
+	border-left: 25px solid #fff;
+	border-right: 25px solid #191919;
+	border-bottom: 25px solid #ffd600;
+}
+
+.ss-blue a {
+	border-top: 25px solid #fff;
+	border-left: 25px solid #fff;
+	border-right: 25px solid #191919;
+	border-bottom: 25px solid #2ac4ea;
+}/*
+.nav-top-fix {
+	display: block !important;
+	background: #fff;
+}*/
+
+/* PREVIEW BOXED   ------------------------------------------------ */
+
+@media (min-width: 1200px) {
+
+.preview-boxed {
+	width: 1160px !important;
+	margin: 0 auto;	
+	background: #f0f0f0;	
+}
+
+
+}
+
+@media (max-width: 1199px) {
+
+.preview-boxed {
+	width: 980px !important;
+	margin: 0 auto;	
+	background: #f0f0f0;	
+}
+
+
+}
+
+
+@media (max-width: 990px) {
+
+.preview-boxed {
+	width: 100% !important;	
+}
+
+
+}
