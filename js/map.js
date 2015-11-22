@@ -1,6 +1,6 @@
 jQuery(document).ready(function () {
     var map;
-    var centerPosition = new google.maps.LatLng(40.747688, -74.004142);
+    var centerPosition = new google.maps.LatLng(6.8168741, 79.8676929);
 
 
     var style = [{
@@ -90,7 +90,7 @@ jQuery(document).ready(function () {
     });
     
     var image = {
-                url: 'http://sdrme.cal24.pl/marker.png',
+                url: 'http://icons.iconarchive.com/icons/paomedia/small-n-flat/48/map-marker-icon.png',
                 origin: new google.maps.Point(0, 0),
                 anchor: new google.maps.Point(16, 50)
             };
