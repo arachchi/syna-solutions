@@ -1,7 +1,6 @@
-jQuery(document).ready(function () {
+function initMap() {
     var map;
     var centerPosition = new google.maps.LatLng(6.8168741, 79.8676929);
-
 
     var style = [{
         "stylers": [{
@@ -99,4 +98,4 @@ jQuery(document).ready(function () {
         map: map,
         icon: image
     });
-});
+};
